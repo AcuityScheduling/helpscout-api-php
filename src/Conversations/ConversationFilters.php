@@ -235,6 +235,7 @@ class ConversationFilters
             'score',
             'status',
             'subject',
+            'waitingSince',
         ]);
 
         $filters = clone $this;
